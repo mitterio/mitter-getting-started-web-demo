@@ -22,9 +22,7 @@ const userAuth = {
 
 // Enter the application id from the mitter.io panel
 const mitter = Mitter.forWeb(
-    'T7Hvb-LRlTG-fEmWi-IGNNF',
-    [() => {}],
-    'https://api.staging.mitter.io'
+    '.. your application id here ..'
 )
 
 mitter.setUserAuthorization(userAuth[loggedUser])
